@@ -1,7 +1,7 @@
 // URLs de los emuladores
-const PROJECT_ID = "demo-project"; // Tu ID de proyecto
+const PROJECT_ID = "firebase-profiles-emulador"; // Tu ID de proyecto
 const REGION = "us-central1";
-const FUNCTIONS_URL = `http://localhost:5001/${PROJECT_ID}/${REGION}/api`;
+const FUNCTIONS_URL = `http://127.0.0.1:5001/${PROJECT_ID}/${REGION}/api`;
 // Función auxiliar para las llamadas a la API
 async function callAPI(endpoint, method = "GET", body = null) {
   try {
